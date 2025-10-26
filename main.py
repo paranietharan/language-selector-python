@@ -355,7 +355,7 @@ class LanguageSelectorUI:
         
         self.back_button = tk.Button(
             nav_frame,
-            text="← Back",
+            text="Back",
             font=('Arial', 12),
             bg='#6b7280',
             fg='white',
@@ -557,7 +557,7 @@ class LanguageSelectorUI:
             if i == 0:
                 badge = tk.Label(
                     rec_frame,
-                    text="⭐ Top Recommendation",
+                    text="Top Recommendation",
                     font=('Arial', 10, 'bold'),
                     bg='#dbeafe',
                     fg='#1e40af',
